@@ -16,12 +16,13 @@ Sections:
 
 ---
 
-Section 1: Problem Statement
+### Section 1: Problem Statement
 
 A team needs a repeatable, secure AWS foundation that can spin up dev/stage/prod environments consistently, with guardrails and a standardized EKS baseline. Manual environment setup leads to drift, inconsistency, and security gaps
 
-Section 2: Architecture Overview
+### Section 2: Architecture Overview
 
+```
 ┌─────────────────────────────────────────────────────┐
 │                   S3 + DynamoDB                      │
 │               (Remote State Backend)                 │
@@ -53,9 +54,9 @@ Section 2: Architecture Overview
     │  ├─ OIDC/IRSA │
     │  └─ CloudWatch│
     └───────────────┘
+```
 
-
-Section 3: Tech Stack
+### Section 3: Tech Stack
 
 | Tool              |                 Purpose                       |
 |-------------------|-----------------------------------------------|
@@ -87,7 +88,7 @@ Section 4: Project Structure
 └── .gitignore
 
 
-Section 5: Environment Comparison
+### Section 5: Environment Comparison
 
 Environment Configuration
 
@@ -101,7 +102,7 @@ Environment Configuration
 | K8s Secrets Encryption | KMS               | KMS              | KMS                |
  
 
-Section 6: Environment Comparison
+### Section 6: Environment Comparison
 
 Environment Configuration
 
@@ -115,7 +116,7 @@ Environment Configuration
 | K8s Secrets Encryption | KMS | KMS | KMS |
 
 
-Section 7: Prerequisites + How To Deploy
+### Section 7: Prerequisites + How To Deploy
 
 ## Prerequisites
 
