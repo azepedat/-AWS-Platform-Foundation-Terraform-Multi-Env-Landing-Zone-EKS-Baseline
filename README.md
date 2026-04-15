@@ -69,8 +69,9 @@ A team needs a repeatable, secure AWS foundation that can spin up dev/stage/prod
 | AWS CloudWatch | Centralized logging                              |
 
 
-Section 4: Project Structure
+### Section 4: Project Structure
 
+```
 ├── bootstrap/                  # S3 + DynamoDB for remote state
 │   ├── main.tf
 │   ├── variables.tf
@@ -86,7 +87,7 @@ Section 4: Project Structure
 │   ├── stage/                 # Stage environment config
 │   └── prod/                  # Prod environment config
 └── .gitignore
-
+```
 
 ### Section 5: Environment Comparison
 
