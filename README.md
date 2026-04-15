@@ -34,9 +34,8 @@ Section 2: Architecture Overview
     ┌───────▼───────┐     ...           ...
     │  VPC (10.0)   │
     │  ├─ Public x3 │
-    │  ├─ Private x3 │
+    │  ├─ Private x3│
     │  └─ NAT GW    │
-    │  └─ IGW       │
     ├───────────────┤
     │  IAM Roles    │
     │  ├─ Cluster   │
