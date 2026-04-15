@@ -37,6 +37,7 @@ A team needs a repeatable, secure AWS foundation that can spin up dev/stage/prod
     │  ├─ Public x3 │
     │  ├─ Private x3│
     │  └─ NAT GW    │
+    │  └─ IGW       │
     ├───────────────┤
     │  IAM Roles    │
     │  ├─ Cluster   │
